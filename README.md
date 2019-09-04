@@ -5,7 +5,7 @@ A collection of small Pokémon-inspired projects.
 ##### Incomplete:
  - Complete the 'Dex (Python)
 ##### Complete:
-(None)
+ - (None)
 
 Feel free to change these into any other language, but please if you do tell me via an issue with the "*making my version*" tag, and credit me (at least in a comment in your code)!
 
