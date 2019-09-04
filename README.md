@@ -1,5 +1,5 @@
 # Pykémon
-A collection of small Pokémon-based projects.
+A collection of small Pokémon-inspired projects.
 
 ### Current projects:
 ##### Incomplete:
