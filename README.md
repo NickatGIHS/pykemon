@@ -4,6 +4,7 @@ A collection of small Pokémon-inspired projects.
 ### Current projects:
 ##### Incomplete:
  - Complete the 'Dex (Python)
+ - Website
 ##### Complete:
  - (None)
 
