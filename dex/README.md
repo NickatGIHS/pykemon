@@ -5,3 +5,4 @@ If you would like to use this, make sure that the `pokemon.csv` file is in ***TH
 
 ### References (Project-specific)
  - [Serebii](https://www.serebii.net/index2.shtml) for the info in `unobt-dual.csv`
+ - [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Main_Page) for the info in the `game-specif` folder
