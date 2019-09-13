@@ -3,8 +3,8 @@ A collection of small, Python-based, Pokémon-inspired projects.
 
 ### Current projects:
 ##### Incomplete:
- - Complete the 'Dex (Python)
- - Website
+ - Complete the 'Dex
+ - Website (HTML)
 ##### Complete:
  - (None)
 
