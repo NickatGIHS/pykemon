@@ -19,6 +19,7 @@ fpoke = open("..\\pokemon.csv")
 games = {
     "1":["red","blue","yellow"],
     "2":["gold","silver","crystal"],
+    "2r":["goldv","silverv","crystalv"],
     "3":["ruby","sapphire","emerald"],
     "3r":["fire","leaf"],
     "4":["diamond","pearl","platinum"],
@@ -30,6 +31,7 @@ games = {
     "7":["sun","moon"],
     "7r":["ultrasun","ultramoon"],
     "7r2":["pikachu","eevee"]
+#    "8":["sword","shield"]
     } # A dict of which games are in which csv files
 
 cons=Tk()
@@ -255,3 +257,130 @@ else:
     ng.pack()
 qg.pack()
 geng.mainloop()
+
+#genh=Tk()
+#th=Label(genh,text="Which Gen 8 games do you own?")
+#swox=IntVar()
+#shix=IntVar()
+#swob=Checkbutton(genh,variable=sunx,text="Pokémon Sword")
+#shib=Checkbutton(genh,variable=moox,text="Pokémon Shield")
+#nh=Label(genh,text="You can't have any Gen 8 games")
+#qh=Button(genh,command=genh.destroy,text="Done")
+#if swiv.get() == 1:
+#    th.pack()
+#    swob.pack()
+#    shib.pack()
+#else:
+#    nh.pack()
+#qh.pack()
+#genh.mainloop()
+genhave = []
+if redx.get() == 1:
+    if "1" not in genhave: genhave.append("1")
+if blux.get() == 1:
+    if "1" not in genhave: genhave.append("1")
+if yelx.get() == 1:
+    if "1" not in genhave: genhave.append("1")
+if redvc.get() == 1:
+    if "1" not in genhave: genhave.append("1")
+if bluvc.get() == 1:
+    if "1" not in genhave: genhave.append("1")
+if yelvc.get() == 1:
+    if "1" not in genhave: genhave.append("1")
+##
+if golx.get() == 1:
+    if "2" not in genhave: genhave.append("2")
+if silx.get() == 1:
+    if "2" not in genhave: genhave.append("2")
+if cryx.get() == 1:
+    if "2" not in genhave: genhave.append("2")
+if golvc.get() == 1:
+    if "2" not in genhave: genhave.append("2")
+if silvc.get() == 1:
+    if "2" not in genhave: genhave.append("2")
+if cryvc.get() == 1:
+    if "2" not in genhave: genhave.append("2")
+##
+if rubx.get() == 1:
+    if "3" not in genhave: genhave.append("3")
+if sapx.get() == 1:
+    if "3" not in genhave: genhave.append("3")
+if emex.get() == 1:
+    if "3" not in genhave: genhave.append("3")
+#
+if firx.get() == 1:
+    if "3r" not in genhave: genhave.append("3r")
+if leax.get() == 1:
+    if "3r" not in genhave: genhave.append("3r")
+##
+if diax.get() == 1:
+    if "4" not in genhave: genhave.append("4")
+if peax.get() == 1:
+    if "4" not in genhave: genhave.append("4")
+if plax.get() == 1:
+    if "4" not in genhave: genhave.append("4")
+#
+if heax.get() == 1:
+    if "4r" not in genhave: genhave.append("4r")
+if soux.get() == 1:
+    if "4r" not in genhave: genhave.append("4r")
+##
+if blax.get() == 1:
+    if "5" not in genhave: genhave.append("5")
+if whix.get() == 1:
+    if "5" not in genhave: genhave.append("5")
+#
+if blbx.get() == 1:
+    if "5r" not in genhave: genhave.append("5r")
+if whbx.get() == 1:
+    if "5r" not in genhave: genhave.append("5r")
+##
+if xx.get() == 1:
+    if "6" not in genhave: genhave.append("6")
+if yx.get() == 1:
+    if "6" not in genhave: genhave.append("6")
+#
+if omex.get() == 1:
+    if "6r" not in genhave: genhave.append("6r")
+if alpx.get() == 1:
+    if "6r" not in genhave: genhave.append("6r")
+##
+if sunx.get() == 1:
+    if "7" not in genhave: genhave.append("7")
+if moox.get() == 1:
+    if "7" not in genhave: genhave.append("7")
+#
+if usux.get() == 1:
+    if "7r" not in genhave: genhave.append("7r")
+if umox.get() == 1:
+    if "7r" not in genhave: genhave.append("7r")
+#
+if pikx.get() == 1:
+    if "7r2" not in genhave: genhave.append("7r2")
+if eevx.get() == 1:
+    if "7r2" not in genhave: genhave.append("7r2")
+##
+#if swox.get() == 1:
+#    if "8" not in genhave: genhave.append("8")
+#if shix.get() == 1:
+#    if "8" not in genhave: genhave.append("8")
+filehave = []
+for g in genhave:
+    filehave.append("game-specif\\"+g+".csv")
+
+whichgen = Tk()
+genvar = IntVar()
+Label(whichgen,text="Up to which generation?").pack()
+Radiobutton(whichgen,variable=genvar,text="Gen 1",value=0).pack()
+Radiobutton(whichgen,variable=genvar,text="Gen 2",value=1).pack()
+Radiobutton(whichgen,variable=genvar,text="Gen 3",value=2).pack()
+Radiobutton(whichgen,variable=genvar,text="Gen 4",value=3).pack()
+Radiobutton(whichgen,variable=genvar,text="Gen 5",value=4).pack()
+Radiobutton(whichgen,variable=genvar,text="Gen 6",value=5).pack()
+Radiobutton(whichgen,variable=genvar,text="Gen 7",value=6).pack()
+#Radiobutton(whichgen,variable=genvar,text="Gen 8",value=7).pack()
+Button(whichgen,command=whichgen.destroy,text="Done").pack()
+whichgen.mainloop()
+genvar.set(genvar.get()+1) # This makes it the generation's actual number, for conveniance.
+
+# Do more stuff here
