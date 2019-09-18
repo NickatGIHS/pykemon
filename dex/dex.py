@@ -12,10 +12,7 @@
 # All Pokemon: ..\\pokemon.csv
 
 from tkinter import * # This uses Tkinter to create popup windows
-
-funob = open("unobt-dual.csv")
-fmyth = open("..\\myth.csv")
-fpoke = open("..\\pokemon.csv")
+import csv # And csv files to store large amounts of info.
 games = {
     "1":["red","blue","yellow"],
     "2":["gold","silver","crystal"],
@@ -276,97 +273,94 @@ geng.mainloop()
 #genh.mainloop()
 genhave = []
 if redx.get() == 1:
-    if "1" not in genhave: genhave.append("1")
+    genhave.append(["1","R"])
 if blux.get() == 1:
-    if "1" not in genhave: genhave.append("1")
+    genhave.append(["1","B"])
 if yelx.get() == 1:
-    if "1" not in genhave: genhave.append("1")
+    genhave.append(["1","Y"])
 if redvc.get() == 1:
-    if "1" not in genhave: genhave.append("1")
+    if ["1","R"] not in genhave: genhave.append(["1","R"])
 if bluvc.get() == 1:
-    if "1" not in genhave: genhave.append("1")
+    if ["1","B"] not in genhave: genhave.append(["1","B"])
 if yelvc.get() == 1:
-    if "1" not in genhave: genhave.append("1")
+    if ["1","Y"] not in genhave: genhave.append(["1","Y"])
 ##
 if golx.get() == 1:
-    if "2" not in genhave: genhave.append("2")
+    genhave.append(["2","G"])
 if silx.get() == 1:
-    if "2" not in genhave: genhave.append("2")
+    genhave.append(["2","S"])
 if cryx.get() == 1:
-    if "2" not in genhave: genhave.append("2")
+    genhave.append(["2","C"])
 if golvc.get() == 1:
-    if "2" not in genhave: genhave.append("2")
+    genhave.append(["2","GV"])
 if silvc.get() == 1:
-    if "2" not in genhave: genhave.append("2")
+    genhave.append(["2","SV"])
 if cryvc.get() == 1:
-    if "2" not in genhave: genhave.append("2")
+    genhave.append(["2","CV"])
 ##
 if rubx.get() == 1:
-    if "3" not in genhave: genhave.append("3")
+    genhave.append(["3","R"])
 if sapx.get() == 1:
-    if "3" not in genhave: genhave.append("3")
+    genhave.append(["3","S"])
 if emex.get() == 1:
-    if "3" not in genhave: genhave.append("3")
+    genhave.append(["3","E"])
 #
 if firx.get() == 1:
-    if "3r" not in genhave: genhave.append("3r")
+    genhave.append(["3r","FR"])
 if leax.get() == 1:
-    if "3r" not in genhave: genhave.append("3r")
+    genhave.append(["3r","LG"])
 ##
 if diax.get() == 1:
-    if "4" not in genhave: genhave.append("4")
+    genhave.append(["4","D"])
 if peax.get() == 1:
-    if "4" not in genhave: genhave.append("4")
+    genhave.append(["4","P"])
 if plax.get() == 1:
-    if "4" not in genhave: genhave.append("4")
+    genhave.append(["4","Pt"])
 #
 if heax.get() == 1:
-    if "4r" not in genhave: genhave.append("4r")
+    genhave.append(["4r","HG"])
 if soux.get() == 1:
-    if "4r" not in genhave: genhave.append("4r")
+    genhave.append(["4r","SS"])
 ##
 if blax.get() == 1:
-    if "5" not in genhave: genhave.append("5")
+    genhave.append(["5","B"])
 if whix.get() == 1:
-    if "5" not in genhave: genhave.append("5")
+    genhave.append(["5","W"])
 #
 if blbx.get() == 1:
-    if "5r" not in genhave: genhave.append("5r")
+    genhave.append(["5r","B2"])
 if whbx.get() == 1:
-    if "5r" not in genhave: genhave.append("5r")
+    genhave.append(["5r","W2"])
 ##
 if xx.get() == 1:
-    if "6" not in genhave: genhave.append("6")
+    genhave.append(["6","X"])
 if yx.get() == 1:
-    if "6" not in genhave: genhave.append("6")
+    genhave.append(["6","Y"])
 #
 if omex.get() == 1:
-    if "6r" not in genhave: genhave.append("6r")
+    genhave.append(["6r","OR"])
 if alpx.get() == 1:
-    if "6r" not in genhave: genhave.append("6r")
+    genhave.append(["6r","AS"])
 ##
 if sunx.get() == 1:
-    if "7" not in genhave: genhave.append("7")
+    genhave.append(["7","S"])
 if moox.get() == 1:
-    if "7" not in genhave: genhave.append("7")
+    genhave.append(["7","M"])
 #
 if usux.get() == 1:
-    if "7r" not in genhave: genhave.append("7r")
+    genhave.append(["7r","US"])
 if umox.get() == 1:
-    if "7r" not in genhave: genhave.append("7r")
+    genhave.append(["7r","UM"])
 #
 if pikx.get() == 1:
-    if "7r2" not in genhave: genhave.append("7r2")
+    genhave.append(["7r2","P"])
 if eevx.get() == 1:
-    if "7r2" not in genhave: genhave.append("7r2")
+    genhave.append(["7r2","E"])
 ##
 #if swox.get() == 1:
-#    if "8" not in genhave: genhave.append("8")
+#    genhave.append(["8","Sw"])
 #if shix.get() == 1:
-#    if "8" not in genhave: genhave.append("8")
-filehave = []
-for g in genhave:
-    filehave.append("game-specif\\"+g+".csv")
+#    genhave.append(["8","Sh"])
 
 whichgen = Tk()
 genvar = IntVar()
@@ -382,5 +376,20 @@ Radiobutton(whichgen,variable=genvar,text="Gen 7",value=6).pack()
 Button(whichgen,command=whichgen.destroy,text="Done").pack()
 whichgen.mainloop()
 genvar.set(genvar.get()+1) # This makes it the generation's actual number, for conveniance.
+pokeall = []
+pokeval = []
+for thing in genhave:
+    with open(("game-specif\\"+thing[0]+".csv"),newline="") as f:
+        for row in csv.reader(f):
+            if thing[1] in row:
+                pokeval.append(row[0])
+with open("..\\pokemon.csv") as pk:
+    for row in csv.reader(pk):
+        if row[13] != "Gen":
+            if int(row[13])<=genvar.get():
+                pokeall.append(row[6])
+pokeval = list(set(pokeval))
+pokeall = list(set(pokeall))
+pokeval.remove("PKMN")
 
-# Do more stuff here
+print(pokeall)

@@ -24,15 +24,15 @@ DexNo,Name,Type1,Type2,Aty1,Aty2,DisplayName,HP,Att,Def,Satt,Sdef,Spd,Gen
 #023,Ekans,Poison,,,,Ekans,35,60,44,40,54,55,1
 #024,Arbok,Poison,,,,Arbok,60,95,69,65,79,80,1
 #025,PikachuN,Electric,,,,Pikachu,35,55,40,50,50,90,1
-#025,PikachuC,Electric,,,,Pikachu (Cap Pikachu),35,55,40,50,50,90,1
-#025,PikachuP,Electric,,,,Pikachu (Partner Pikachu),45,80,50,75,60,120,1
+#025,PikachuC,Electric,,,,Pikachu,35,55,40,50,50,90,1
+#025,PikachuP,Electric,,,,Pikachu,45,80,50,75,60,120,7
 #026,Raichu,Electric,,Electric,Psychic,Raichu,60,90,55,90,80,110,1
 #027,Sandshrew,Ground,,Ice,Steel,Sandshrew,50,75,85,20,30,40,1
 #028,Sandslash,Ground,,Ice,Steel,Sandslash,75,100,110,45,55,65,1
-#029,NidoranF,Poison,,,,Nidoran (Female),55,47,52,40,40,41,1
+#029,NidoranF,Poison,,,,Nidoran,55,47,52,40,40,41,1
 #030,Nidorina,Poison,,,,Nidorina,70,62,67,55,55,56,1
 #031,Nidoqueen,Poison,Ground,,,Nidoqueen,90,92,87,75,85,76,1
-#032,NidoranM,Poison,,,,Nidoran (Male),46,57,40,40,40,50,1
+#032,NidoranM,Poison,,,,Nidoran,46,57,40,40,40,50,1
 #033,Nidorino,Poison,,,,Nidorino,61,72,57,55,55,65,1
 #034,Nidoking,Poison,Ground,,,Nidoking,81,102,77,85,75,85,1
 #035,Clefairy,Fairy,,,,Clefairy,70,45,48,60,65,35,1
@@ -134,7 +134,7 @@ DexNo,Name,Type1,Type2,Aty1,Aty2,DisplayName,HP,Att,Def,Satt,Sdef,Spd,Gen
 #131,Lapras,Water,Ice,,,Lapras,130,85,80,85,95,60,1
 #132,Ditto,Normal,,,,Ditto,48,48,48,48,48,48,1
 #133,EeveeN,Normal,,,,Eevee,55,55,50,45,65,55,1
-#133,EeveeP,Normal,,,,Eevee (Partner Eevee),65,75,70,65,85,75,1
+#133,EeveeP,Normal,,,,Eevee,65,75,70,65,85,75,7
 #134,Vaporeon,Water,,,,Vaporeon,130,65,60,110,95,65,1
 #135,Jolteon,Electric,,,,Jolteon,65,65,60,110,95,130,1
 #136,Flareon,Fire,,,,Flareon,65,130,60,95,110,65,1
@@ -390,10 +390,10 @@ DexNo,Name,Type1,Type2,Aty1,Aty2,DisplayName,HP,Att,Def,Satt,Sdef,Spd,Gen
 #383,Groudon,Ground,,,,Groudon,100,150,140,100,90,90,3
 #384,Rayquaza,Dragon,Flying,,,Rayquaza,105,150,90,150,90,95,3
 #385,Jirachi,Steel,Psychic,,,Jirachi,100,100,100,100,100,100,3
-#386,DeoxysN,Psychic,,,,Deoxys (Normal Forme),50,150,50,150,50,150,3
-#386,DeoxysA,Psychic,,,,Deoxys (Attack Forme),50,180,20,180,20,150,3
-#386,DeoxysD,Psychic,,,,Deoxys (Defense Forme),50,70,160,70,160,90,3
-#386,DeoxysS,Psychic,,,,Deoxys (Speed Forme),50,95,90,95,90,180,3
+#386,DeoxysN,Psychic,,,,Deoxys,50,150,50,150,50,150,3
+#386,DeoxysA,Psychic,,,,Deoxys,50,180,20,180,20,150,3
+#386,DeoxysD,Psychic,,,,Deoxys,50,70,160,70,160,90,3
+#386,DeoxysS,Psychic,,,,Deoxys,50,95,90,95,90,180,3
 #387,Turtwig,Grass,,,,Turtwig,55,68,64,45,55,31,4
 #388,Grotle,Grass,,,,Grotle,75,89,85,55,65,36,4
 #389,Torterra,Grass,Ground,,,Torterra,95,109,105,75,85,56,4
@@ -420,9 +420,9 @@ DexNo,Name,Type1,Type2,Aty1,Aty2,DisplayName,HP,Att,Def,Satt,Sdef,Spd,Gen
 #410,Shieldon,Rock,Steel,,,Shieldon,30,42,118,42,88,30,4
 #411,Bastiodon,Rock,Steel,,,Bastiodon,60,52,168,47,138,30,4
 #412,Burmy,Bug,,,,Burmy,40,29,45,29,45,36,4
-#413,WormadamP,Bug,Grass,,,Wormadam (Plant Cloak),60,59,85,79,105,36,4
-#413,WormadamS,Bug,Ground,,,Wormadam (Sandy Cloak),60,79,105,59,85,36,4
-#413,WormadamT,Bug,Steel,,,Wormadam (Trash Cloak),60,69,95,69,95,36,4
+#413,WormadamP,Bug,Grass,,,Wormadam,60,59,85,79,105,36,4
+#413,WormadamS,Bug,Ground,,,Wormadam,60,79,105,59,85,36,4
+#413,WormadamT,Bug,Steel,,,Wormadam,60,69,95,69,95,36,4
 #414,Mothim,Bug,Flying,,,Mothim,70,94,50,94,50,66,4
 #415,Combee,Bug,Flying,,,Combee,30,30,42,30,42,70,4
 #416,Vespiquen,Bug,Flying,,,Vespiquen,70,80,102,80,102,40,4
@@ -489,11 +489,11 @@ DexNo,Name,Type1,Type2,Aty1,Aty2,DisplayName,HP,Att,Def,Satt,Sdef,Spd,Gen
 #477,Dusknoir,Ghost,,,,Dusknoir,45,100,135,65,135,45,4
 #478,Froslass,Ice,Ghost,,,Froslass,70,80,70,80,70,110,4
 #479,Rotom,Electric,Ghost,,,Rotom,50,50,77,95,77,91,4
-#479,RotomH,Electric,Fire,,,Rotom (Heat Rotom),50,65,107,105,107,86,4
-#479,RotomW,Electric,Water,,,Rotom (Wash Rotom),50,65,107,105,107,86,4
-#479,RotomFr,Electric,Ice,,,Rotom (Frost Rotom),50,65,107,105,107,86,4
-#479,RotomFa,Electric,Flying,,,Rotom (Fan Rotom),50,65,107,105,107,86,4
-#479,RotomM,Electric,Grass,,,Rotom (Mow Rotom),50,65,107,105,107,86,4
+#479,RotomH,Electric,Fire,,,Rotom,50,65,107,105,107,86,4
+#479,RotomW,Electric,Water,,,Rotom,50,65,107,105,107,86,4
+#479,RotomFr,Electric,Ice,,,Rotom,50,65,107,105,107,86,4
+#479,RotomFa,Electric,Flying,,,Rotom,50,65,107,105,107,86,4
+#479,RotomM,Electric,Grass,,,Rotom,50,65,107,105,107,86,4
 #480,Uxie,Psychic,,,,Uxie,75,75,130,75,130,95,4
 #481,Mesprit,Psychic,,,,Mesprit,80,105,105,105,105,80,4
 #482,Azelf,Psychic,,,,Azelf,75,125,70,125,70,115,4
@@ -501,14 +501,14 @@ DexNo,Name,Type1,Type2,Aty1,Aty2,DisplayName,HP,Att,Def,Satt,Sdef,Spd,Gen
 #484,Palkia,Water,Dragon,,,Palkia,90,120,100,150,120,100,4
 #485,Heatran,Fire,Steel,,,Heatran,91,90,106,130,106,77,4
 #486,Regigigas,Normal,,,,Regigigas,110,160,110,80,110,100,4
-#487,GiratinaA,Ghost,Dragon,,,Giratina (Altered Forme),150,100,120,100,120,90,4
-#487,GiratinaO,Ghost,Dragon,,,Giratina (Origin Forme),150,120,100,120,100,90,4
+#487,GiratinaA,Ghost,Dragon,,,Giratina,150,100,120,100,120,90,4
+#487,GiratinaO,Ghost,Dragon,,,Giratina,150,120,100,120,100,90,4
 #488,Cresselia,Psychic,,,,Cresselia,120,70,120,75,130,85,4
 #489,Phione,Water,,,,Phione,80,80,80,80,80,80,4
 #490,Manaphy,Water,,,,Manaphy,100,100,100,100,100,100,4
 #491,Darkrai,Dark,,,,Darkrai,70,90,90,135,90,125,4
-#492,ShayminL,Grass,,,,Shaymin (Land Forme),100,100,100,100,100,100,4
-#492,ShayminS,Grass,Flying,,,Shaymin (Sky Forme),100,103,75,120,75,127,4
+#492,ShayminL,Grass,,,,Shaymin,100,100,100,100,100,100,4
+#492,ShayminS,Grass,Flying,,,Shaymin,100,103,75,120,75,127,4
 #493,Arceus,Normal,,,,Arceus,120,120,120,120,120,120,4
 #494,Victini,Psychic,Fire,,,Victini,100,100,100,100,100,100,5
 #495,Snivy,Grass,,,,Snivy,45,45,55,45,55,63,5
@@ -571,8 +571,8 @@ DexNo,Name,Type1,Type2,Aty1,Aty2,DisplayName,HP,Att,Def,Satt,Sdef,Spd,Gen
 #552,Krokorok,Ground,Dark,,,Krokorok,60,82,45,45,45,74,5
 #553,Krookodile,Ground,Dark,,,Krookodile,95,117,80,65,70,92,5
 #554,Darumaka,Fire,,,,Darumaka,70,90,45,15,45,50,5
-#555,DarmanitanN,Fire,,,,Darmanitan (Standard Mode),105,140,55,30,55,95,5
-#555,DarmanitanZ,Fire,Psychic,,,Darmanitan (Zen Mode),105,30,105,140,105,55,5
+#555,DarmanitanN,Fire,,,,Darmanitan,105,140,55,30,55,95,5
+#555,DarmanitanZ,Fire,Psychic,,,Darmanitan,105,30,105,140,105,55,5
 #556,Maractus,Grass,,,,Maractus,75,86,67,106,67,60,5
 #557,Dwebble,Bug,Rock,,,Dwebble,50,65,85,35,35,55,5
 #558,Crustle,Bug,Rock,,,Crustle,70,105,125,65,75,45,5
@@ -658,20 +658,20 @@ DexNo,Name,Type1,Type2,Aty1,Aty2,DisplayName,HP,Att,Def,Satt,Sdef,Spd,Gen
 #638,Cobalion,Steel,Fighting,,,Cobalion,91,90,129,90,72,108,5
 #639,Terrakion,Rock,Fighting,,,Terrakion,91,129,90,72,90,108,5
 #640,Virizion,Grass,Fighting,,,Virizion,91,90,72,90,129,108,5
-#641,TornadusI,Flying,,,,Tornadus (Incarnate Forme),79,115,70,125,80,111,5
-#641,TornadusT,Flying,,,,Tornadus (Therian Forme),79,100,80,110,90,121,5
-#642,ThundurusI,Electric,Flying,,,Thundurus (Incarnate Forme),79,115,70,125,80,111,5
-#642,ThundurusT,Electric,Flying,,,Thundurus (Therian Forme),79,105,70,145,80,101,5
+#641,TornadusI,Flying,,,,Tornadus,79,115,70,125,80,111,5
+#641,TornadusT,Flying,,,,Tornadus,79,100,80,110,90,121,5
+#642,ThundurusI,Electric,Flying,,,Thundurus,79,115,70,125,80,111,5
+#642,ThundurusT,Electric,Flying,,,Thundurus,79,105,70,145,80,101,5
 #643,Reshiram,Dragon,Fire,,,Reshiram,100,120,100,150,120,90,5
 #644,Zekrom,Dragon,Electric,,,Zekrom,100,150,120,120,100,90,5
-#645,LandorusI,Ground,Flying,,,Landorus (Incarnate Forme),89,125,90,115,80,101,5
-#645,LandorusT,Ground,Flying,,,Landorus (Therian Forme),89,145,90,105,80,91,5
-#646,Kyurem,Dragon,Ice,,,Kyurem (Normal Kyurem),125,130,90,130,90,95,5
-#646,KyuremB,Dragon,Ice,,,Kyurem (Black Kyurem),125,170,100,120,90,95,5
-#646,KyuremW,Dragon,Ice,,,Kyurem (White Kyurem),125,120,90,170,100,95,5
+#645,LandorusI,Ground,Flying,,,Landorus,89,125,90,115,80,101,5
+#645,LandorusT,Ground,Flying,,,Landorus,89,145,90,105,80,91,5
+#646,Kyurem,Dragon,Ice,,,Kyurem,125,130,90,130,90,95,5
+#646,KyuremB,Dragon,Ice,,,Kyurem,125,170,100,120,90,95,5
+#646,KyuremW,Dragon,Ice,,,Kyurem,125,120,90,170,100,95,5
 #647,Keldeo,Water,Fighting,,,Keldeo,91,72,90,129,90,108,5
-#648,MeloettaA,Normal,Psychic,,,Meloetta (Aria Forme),100,77,77,128,128,90,5
-#648,MeloettaP,Normal,Fighting,,,Meloetta (Pirouette Forme),100,128,90,77,77,128,5
+#648,MeloettaA,Normal,Psychic,,,Meloetta,100,77,77,128,128,90,5
+#648,MeloettaP,Normal,Fighting,,,Meloetta,100,128,90,77,77,128,5
 #649,Genesect,Bug,Steel,,,Genesect,71,120,95,120,95,99,5
 #650,Chespin,Grass,,,,Chespin,56,61,65,48,45,38,6
 #651,Quilladin,Grass,,,,Quilladin,61,78,95,56,58,57,6
@@ -704,8 +704,8 @@ DexNo,Name,Type1,Type2,Aty1,Aty2,DisplayName,HP,Att,Def,Satt,Sdef,Spd,Gen
 #678,Meowstic,Psychic,,,,Meowstic,74,48,76,83,81,104,6
 #679,Honedge,Steel,Ghost,,,Honedge,45,80,100,35,37,28,6
 #680,Doublade,Steel,Ghost,,,Doublade,59,110,150,45,49,35,6
-#681,AegislashS,Steel,Ghost,,,Aegislash (Shield Forme),60,50,150,50,150,60,6
-#681,AegislashB,Steel,Ghost,,,Aegislash (Blade Forme),60,150,50,150,50,60,6
+#681,AegislashS,Steel,Ghost,,,Aegislash,60,50,150,50,150,60,6
+#681,AegislashB,Steel,Ghost,,,Aegislash,60,150,50,150,50,60,6
 #682,Spritzee,Fairy,,,,Spritzee,78,52,60,63,65,23,6
 #683,Aromatisse,Fairy,,,,Aromatisse,101,72,72,99,89,29,6
 #684,Swirlix,Fairy,,,,Swirlix,62,48,66,59,57,49,6
@@ -734,20 +734,20 @@ DexNo,Name,Type1,Type2,Aty1,Aty2,DisplayName,HP,Att,Def,Satt,Sdef,Spd,Gen
 #707,Klefki,Steel,Fairy,,,Klefki,57,80,91,80,87,75,6
 #708,Phantump,Ghost,Grass,,,Phantump,43,70,48,50,60,38,6
 #709,Trevenant,Ghost,Grass,,,Trevenant,85,110,76,65,82,56,6
-#710,Pumpkaboo,Ghost,Grass,,,Pumpkaboo (Average Size),49,66,70,44,55,51,6
-#711,Gourgeist,Ghost,Grass,,,Gourgeist (Average Size),65,90,122,58,75,84,6
+#710,Pumpkaboo,Ghost,Grass,,,Pumpkaboo,49,66,70,44,55,51,6
+#711,Gourgeist,Ghost,Grass,,,Gourgeist,65,90,122,58,75,84,6
 #712,Bergmite,Ice,,,,Bergmite,55,69,85,32,35,28,6
 #713,Avalugg,Ice,,,,Avalugg,95,117,184,44,46,28,6
 #714,Noibat,Flying,Dragon,,,Noibat,40,30,35,45,40,55,6
 #715,Noivern,Flying,Dragon,,,Noivern,85,70,80,97,80,123,6
 #716,Xerneas,Fairy,,,,Xerneas,126,131,95,131,98,99,6
 #717,Yveltal,Dark,Flying,,,Yveltal,126,131,95,131,98,99,6
-#718,Zygarde1,Dragon,Ground,,,Zygarde (50% Forme),108,100,121,81,95,95,7
-#718,Zygarde5,Dragon,Ground,,,Zygarde (10% Forme),54,100,71,61,85,115,6
-#718,ZygardeC,Dragon,Ground,,,Zygarde (Complete Forme),216,100,121,91,95,85,6
+#718,Zygarde1,Dragon,Ground,,,Zygarde,108,100,121,81,95,95,7
+#718,Zygarde5,Dragon,Ground,,,Zygarde,54,100,71,61,85,115,6
+#718,ZygardeC,Dragon,Ground,,,Zygarde,216,100,121,91,95,85,6
 #719,Diancie,Rock,Fairy,,,Diancie,50,100,150,100,150,50,6
-#720,HoopaC,Psychic,Ghost,,,Hoopa (Hoopa Confined),80,110,60,150,130,70,6
-#720,HoopaU,Psychic,Dark,,,Hoopa (Hoopa Unbound),80,160,60,170,130,80,6
+#720,HoopaC,Psychic,Ghost,,,Hoopa,80,110,60,150,130,70,6
+#720,HoopaU,Psychic,Dark,,,Hoopa,80,160,60,170,130,80,6
 #721,Volcanion,Fire,Water,,,Volcanion,80,110,120,130,90,70,6
 #722,Rowlet,Grass,Flying,,,Rowlet,68,55,55,50,50,42,7
 #723,Dartrix,Grass,Flying,,,Dartrix,78,75,75,70,70,52,7
@@ -775,11 +775,11 @@ DexNo,Name,Type1,Type2,Aty1,Aty2,DisplayName,HP,Att,Def,Satt,Sdef,Spd,Gen
 #742,Cutiefly,Bug,Fairy,,,Cutiefly,40,45,40,55,40,84,7
 #743,Ribombee,Bug,Fairy,,,Ribombee,60,55,60,95,70,124,7
 #744,Rockruff,Rock,,,,Rockruff,45,65,40,30,40,60,7
-#745,LycanrocDay,Rock,,,,Lycanroc (Midday Form),75,115,65,55,65,112,7
-#745,LycanrocNite,Rock,,,,Lycanroc (Midnight Form),85,115,75,55,75,82,7
-#745,LycanrocDusk,Rock,,,,Lycanroc (Dusk Form),75,117,65,55,65,110,7
-#746,WishiwashiSo,Water,,,,Wishiwashi (Solo Form),45,20,20,25,25,40,7
-#746,WishiwashiSc,Water,,,,Wishiwashi (School Form),45,140,130,140,135,30,7
+#745,LycanrocDay,Rock,,,,Lycanroc,75,115,65,55,65,112,7
+#745,LycanrocNite,Rock,,,,Lycanroc,85,115,75,55,75,82,7
+#745,LycanrocDusk,Rock,,,,Lycanroc,75,117,65,55,65,110,7
+#746,WishiwashiSo,Water,,,,Wishiwashi,45,20,20,25,25,40,7
+#746,WishiwashiSc,Water,,,,Wishiwashi,45,140,130,140,135,30,7
 #747,Mareanie,Poison,Water,,,Mareanie,50,53,62,43,52,45,7
 #748,Toxapex,Poison,Water,,,Toxapex,50,63,152,53,142,35,7
 #749,Mudbray,Ground,,,,Mudbray,70,100,70,45,55,45,7
@@ -807,8 +807,8 @@ DexNo,Name,Type1,Type2,Aty1,Aty2,DisplayName,HP,Att,Def,Satt,Sdef,Spd,Gen
 #771,Pyukumuku,Water,,,,Pyukumuku,55,60,130,30,130,5,7
 #772,Type: Null,Normal,,,,Type: Null,95,95,95,95,95,59,7
 #773,Silvally,Normal,,,,Silvally,95,95,95,95,95,95,7
-#774,MiniorM,Rock,Flying,,,Minior (Meteor Form),60,60,100,60,100,60,7
-#774,MiniorC,Rock,Flying,,,Minior (Core Form),60,100,60,100,60,120,7
+#774,MiniorM,Rock,Flying,,,Minior,60,60,100,60,100,60,7
+#774,MiniorC,Rock,Flying,,,Minior,60,100,60,100,60,120,7
 #775,Komala,Normal,,,,Komala,65,115,65,75,95,65,7
 #776,Turtonator,Fire,Dragon,,,Turtonator,60,78,135,91,85,36,7
 #777,Togedemaru,Electric,Steel,,,Togedemaru,65,98,63,40,73,96,7
@@ -835,9 +835,9 @@ DexNo,Name,Type1,Type2,Aty1,Aty2,DisplayName,HP,Att,Def,Satt,Sdef,Spd,Gen
 #798,Kartana,Grass,Steel,,,Kartana,59,181,131,59,31,109,7
 #799,Guzzlord,Dark,Dragon,,,Guzzlord,223,101,53,97,53,43,7
 #800,Necrozma,Psychic,,,,Necrozma,97,107,101,127,89,79,7
-#800,NecrozmaS,Psychic,Steel,,,Necrozma (Dusk Mane),97,157,127,113,109,77,7
-#800,NecrozmaL,Psychic,Ghost,,,Necrozma (Dawn Wings),97,113,109,157,127,77,7
-#800,NecrozmaU,Psychic,Dragon,,,Necrozma (Ultra Necrozma),97,167,97,167,97,129,7
+#800,NecrozmaS,Psychic,Steel,,,Necrozma,97,157,127,113,109,77,7
+#800,NecrozmaL,Psychic,Ghost,,,Necrozma,97,113,109,157,127,77,7
+#800,NecrozmaU,Psychic,Dragon,,,Necrozma,97,167,97,167,97,129,7
 #801,Magearna,Steel,Fairy,,,Magearna,80,95,115,130,115,65,7
 #802,Marshadow,Fighting,Ghost,,,Marshadow,90,125,80,90,90,125,7
 #803,Poipole,Poison,,,,Poipole,67,73,67,73,67,73,7
