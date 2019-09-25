@@ -14,5 +14,7 @@ These projects will be using a file that I will probably use a lot of - `pokemon
 
 So that's about it! These are ***still works in progress***, and may not be done for a while.
 
+All rights to Nintendo, Creatures Inc and Game Freak
+
 ### References
  - [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Main_Page) for the info in `pokemon.csv`
