@@ -1,3 +1,5 @@
+# I HAVE PUT THIS PROJECT ON HOLD FOR AN UNDETERMINED AMOUNT OF TIME AS OF 3rd Feb 2020.
+
 # Pykémon
 A collection of small, Python-based, Pokémon-inspired projects.
 
