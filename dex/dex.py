@@ -14,21 +14,22 @@
 from tkinter import * # This uses Tkinter to create popup windows
 import csv # And csv files to store large amounts of info.
 games = {
-    "1":["red","blue","yellow"],
-    "2":["gold","silver","crystal"],
-    "2r":["goldv","silverv","crystalv"],
-    "3":["ruby","sapphire","emerald"],
-    "3r":["fire","leaf"],
-    "4":["diamond","pearl","platinum"],
-    "4r":["heart","soul"],
-    "5":["black","white"],
-    "5r":["black2","white2"],
-    "6":["x","y"],
-    "6r":["omega","alpha"],
+    "2r":["gold (Virtual)","silver (Virtual)","crystal (Virtual)"],
+    "1r":["red (Virtual)","blue (Virtual)","yellow (Virtual)"],
+#    "8":["sword","shield"],
+    "7r2":["pikachu","eevee"],
+    "7r":["ultra sun","ultra moon"],
     "7":["sun","moon"],
-    "7r":["ultrasun","ultramoon"],
-    "7r2":["pikachu","eevee"]
-#    "8":["sword","shield"]
+    "6r":["omega","alpha"],
+    "6":["x","y"],
+    "5r":["black 2","white 2"],
+    "5":["black","white"],
+    "4r":["heart","soul"],
+    "4":["diamond","pearl","platinum"],
+    "3r":["fire","leaf"],
+    "3":["ruby","sapphire","emerald"],
+    "2":["gold","silver","crystal"],
+    "1":["red","blue","yellow"],
     } # A dict of which games are in which csv files
 
 cons=Tk()
@@ -279,11 +280,11 @@ if blux.get() == 1:
 if yelx.get() == 1:
     genhave.append(["1","Y"])
 if redvc.get() == 1:
-    if ["1","R"] not in genhave: genhave.append(["1","R"])
+    genhave.append(["1r","R"])
 if bluvc.get() == 1:
-    if ["1","B"] not in genhave: genhave.append(["1","B"])
+    genhave.append(["1r","B"])
 if yelvc.get() == 1:
-    if ["1","Y"] not in genhave: genhave.append(["1","Y"])
+    genhave.append(["1r","Y"])
 ##
 if golx.get() == 1:
     genhave.append(["2","G"])
@@ -376,7 +377,17 @@ Radiobutton(whichgen,variable=genvar,text="Gen 7",value=6).pack()
 Button(whichgen,command=whichgen.destroy,text="Done").pack()
 whichgen.mainloop()
 genvar.set(genvar.get()+1) # This makes it the generation's actual number, for conveniance.
-pokeall = []
+
+eventify = Tk()
+eventlol = IntVar()
+Label(eventify,text="Don't count...")
+Radiobutton(eventify,variable=eventlol,text="Mythicals & legendaries",value=0).pack()
+Radiobutton(eventify,variable=eventlol,text="Mythicals",value=1).pack()
+Radiobutton(eventify,variable=eventlol,text="Event-only mythicals",value=2).pack()
+eventify.mainloop()
+#STILLL NOT DONEE
+pokeup = []
+pokenot = []
 pokeval = []
 for thing in genhave:
     with open(("game-specif\\"+thing[0]+".csv"),newline="") as f:
@@ -387,9 +398,32 @@ with open("..\\pokemon.csv") as pk:
     for row in csv.reader(pk):
         if row[13] != "Gen":
             if int(row[13])<=genvar.get():
-                pokeall.append(row[6])
+                pokeup.append(row[6])
+with open("..\\myth.csv") as mythics:
+    for row in csv.reader(mythics):
+        if eventlol
 pokeval = list(set(pokeval))
-pokeall = list(set(pokeall))
+pokeup = list(set(pokeup))
 pokeval.remove("PKMN")
-
-print(pokeall)
+pokehave=[value for value in list(set(list(set(pokenot)-set(pokeup))+pokeval)) if value in pokeup]
+def buy(listy):
+    if sorted(pokeup) == sorted(pokehave):
+        if len(listy) == 1:
+            return [True, "You need to buy Pokémon "+listy[0]]
+        elif len(listy) == 0:
+            return [True, "You don't need to buy any Pokémon games"]
+        else:
+            var = ""
+            for yay in listy:
+                var += yay
+                var += "and Pokémon "
+            var=var[:-12]
+            return [True, "You need to buy Pokémon "+var]
+    else:
+        return [False,"this shouldn't display"]
+for gener, gamm in games:
+    if buy([])[0] == True:
+        print("yup") # Placeholder
+    for thing in genhave:
+        if thing[0] == gener:
+            
