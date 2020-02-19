@@ -1,0 +1,23 @@
+Pykemon : Non-normal pokemon:
+Pikachu (Normal/Cap/Partner -- Normal is Normal, Cap can use PikaSHUnium Z and 10,000,000-Volt thunderbolt, Partner is in Let's Go Pikachu)
+Eevee (Normal/Partner) -- just stat diffs and diff moves
+Castaform (Sunny/Rainy/Snowy form for Harsh Sunlight/Rain/Hail -- Fire/Water/Ice, otherwise Normal)
+Deoxys (Normal/Attack/Defense/Speed form -- all Psychic type)
+Burmy (Plant/Sand/Trash -- depends on where last battled, all Bug type - don't worry about coding this in)
+Wormadam (same as Burmy, but Plant = Bug/Grass, Sand = Bug/Ground, Trash = Bug/Steel)
+Rotom (Normal/Heat/Wash/Freeze/Fan/Mow -- All are Electric/X, X is Norm = Ghost, Heat = Fire, Wash = Water, Freez = Ice, Fan = Flying, Mow = Grass)
+Giratina (Altered/Origin -- Altered normally, Origin if in Distortion World or holding Griseous Orb)
+Shaymin (Land/Sky -- Land = Grass, Sky = Grass/Flying)
+Arceus (Changes type when holding Z-crystals/Plates)
+Tornadus, Thundurus, Landorus (Incarnate/Therian -- Change forms using Reveal Glass)
+Meloetta (Aria/Piroette - starts Aria, but changes if you use Relic Song in battle - A = Normal/Psychic, P = Normal/Fighting
+Genesect (Techno Blast changes type when holding Drives: None = Normal, Burn = Fire, Douse = Water, Shock = Electric, Chill = Ice)
+Darmanitan (Normal/Zen -- Is normal mode, changes to zen mode when has low hp. N = Fire, Z = Fire/Psychic)
+Hoopa (Confined/Unbound -- Confined = Psychic/Ghost, Unbound = Psychic/Dark)
+Aegislash (Shield/Blade -- starts in Shield, if used damaging move then becomes Blade, changes back to shield if uses King's Shield.
+Oricorio (Baile/PomPom/Pa'u/Sensu -- Each type is X/Flying - X = Fire/Elect/Psy/Gho -- Revelation Dance changes type depending on this PKMN's type)
+Wishiwashi (Solo/School -- only works if above lvl 20: At start of battle or end of turn if HP > 25% it is school form. At end of turn if HP < 25% it will be solo.
+Silvally (Changes type depending on held Memory)
+Minior (Meteor/Core -- if HP > 50% it is Meteor, otherwise Core)
+Necrozma (Normal/Sun/Moon/Ultra -- Psychic, Psychic/Steel, Psychic/Ghost, Psychic/Dragon -- Can only become ultra if is Sun/Moon and uses Ultra Burst (and a move alongside it))and is holding ultranecrozmium z
+Mimikyu (Disguised/Busted - starts disguised, becomes busted after 1 hit (no damage taken))
